@@ -1,0 +1,82 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+   padding-top: 10px;
+   /* margin-bottom: 10px; */
+   font-size: 40px;
+   color: #60E1E0;
+}
+#maindiv{
+    /* background-color: aquamarine; */
+    background-image: url("quizback.jpg");
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+#QandAparent{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+#QandA{
+    /* background-color: blue; */
+    height: 30em;
+    width:70vw;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+
+}
+#Question{
+    /* height: 30px;
+    width: 100%; */
+    background-color: #AFD2E9 ;
+    border-radius: 10px;
+    border: 4px solid black;    
+    /* margin: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px ;
+    padding-right:5px;
+    font-size: 20px;
+}
+#cards{
+    height: 70%;
+    width:100%;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card{
+    /* width:10px;
+    height:5px; */
+    /* margin-top: 40px; */
+    background-color: #86CB92;
+    font-size: 30px;
+    padding-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+/* #Question:hover{
+    background-color:#56A3A6; ;
+} */
+
+.card:hover{
+    background-color: #3F784C;
+}
+
+button {
+    background-color: #3F784C;
+}
